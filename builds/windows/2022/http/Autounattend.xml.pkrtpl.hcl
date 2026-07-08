@@ -125,11 +125,15 @@
           </InstallTo>
         </OSImage>
       </ImageInstall>
-      <UserData>
-        <AcceptEula>true</AcceptEula>
-        <FullName>Packer</FullName>
-        <Organization>Packer</Organization>
-      </UserData>
+        <UserData>
+          <AcceptEula>true</AcceptEula>
+          <FullName>Packer</FullName>
+          <Organization>Packer</Organization>
+          <ProductKey>
+            <Key>WX4NM-KYWYW-QJJR4-XV3QB-6VM33</Key>
+            <WillShowUI>OnError</WillShowUI>
+          </ProductKey>
+        </UserData>
     </component>
   </settings>
 

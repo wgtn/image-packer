@@ -8,13 +8,14 @@
 
 # Point this at your local ISO or a download URL.
 # Example local path (Windows): "file:///C:/ISOs/SERVER_EVAL_x64FRE_en-us.iso"
-iso_url      = "file:///C:/LabMedia/isos/Windows/Server/2022/SERVER_EVAL_x64FRE_en-us.iso"
-iso_checksum = "sha256:3E4FA6D8507B554856FC9CA6079CC402DF11A8B79344871669F0251535255325" # e.g. "sha256:<hash>" — set this for reproducible builds
-windows_image_name = "Windows Server 2022 Datacenter Evaluation (Desktop Experience)"
+iso_url = "file:///C:/LabMedia/isos/Windows/Server/2022/WindowsServer2022/ISO/WS2022-Updated-windows-server-2022-datacenter-desktop-20260705.iso"
+iso_checksum= "sha256:54862DF9FEA9EC493851805DD0FCB8047BD7F192061F1367049EFFC60C1539DE"
+windows_image_name = "Windows Server 2022 Datacenter (Desktop Experience)"
+windows_image_index = "1"
 
 # VM sizing
-cpus      = 2
-memory    = 4096
+cpus      = 4
+memory    = 8192
 disk_size = 61440
 
 # Show the VirtualBox console while developing the Autounattend.xml; set true for CI.
